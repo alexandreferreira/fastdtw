@@ -68,7 +68,7 @@ kwargs = {
     'long_description': long_description,
     'license': 'MIT',
     'keywords': ['dtw'],
-    'install_requires': ['numpy'],
+    'install_requires': ['numpy', 'cython'],
     'packages': find_packages(),
     'ext_modules':  extensions,
     'test_suite': 'tests',
